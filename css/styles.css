@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #f1f5f8;
+    line-height: 2.2;
+    font-size: 0.875rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background: #f1f5f8;
+    box-shadow: 0 5px, 15px rgba(0, 0, 0, 0);
+
+}
+
+.nav-main {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+.menu a{
+    color: gray;
+    letter-spacing: 0.1rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
+    transition: 0.3s;
+    background-color: white;
+    width: 300px;
+    height: 100%;
+    margin: 10px;
+
+}
+
+.card button {
+    padding: 10px;
+    background-color: rgb(30, 172, 238);
+    color: #f1f5f8;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.mensajeError {
+    color: red;
+    margin-top: 0 px;
+    font-size: 12px;
+
+}
